@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './App.css';
 
 const MeetupProblems = ({ food, projector, boring }) => (
@@ -16,7 +16,6 @@ const MeetupProblems = ({ food, projector, boring }) => (
     >
       Get Rid of Meetup Problems
     </button>
-
   </div>
 )
 
@@ -35,5 +34,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-// What's the issue with this (button wont do anything)

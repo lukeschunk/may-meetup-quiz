@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { updateCats } from 'somewhere'
 
 const CATS = [
   {
@@ -27,7 +27,7 @@ function App() {
             {c}
         </div>
       ))}
-      <button onClick={() => updateCats} >Update Cats</button>
+      <button onClick={() => updateCats()} >Update Cats</button>
     </div>
   );
 }

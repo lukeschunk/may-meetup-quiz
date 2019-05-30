@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 
@@ -34,4 +33,3 @@ class App extends React.Component {
 
 export default App;
 
-//the core issue here is that setState is async
